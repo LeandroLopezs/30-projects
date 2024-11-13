@@ -79,8 +79,8 @@ const getBet = (balance, lines) => {
 
 const spin = () => {
     const symbols = [];
-    for (const [symbol, count] of Object.entries(SYMBOLS_COUNT)){
-        for (let i = 0; i < count; i++){
+    for (const [symbol, count] of Object.entries(SYMBOLS_COUNT)) {
+        for (let i = 0; i < count; i++) {
             symbols.push(symbol);
         }
 
