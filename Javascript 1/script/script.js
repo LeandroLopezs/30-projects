@@ -21,10 +21,18 @@ function calculateBalance(income, expenses) {
 };
 */
 //arrow function
-const calculateBalance = (income) => income - 500;
+/*const calculateBalance = (income) => income - 500;
 
 
 const result = calculateBalance(5000);
-console.log(result);
+console.log(result);*/
+const balanceEl = document.querySelector('.balance-number');
+
+balanceEl.addEventListener('click', function () {
+    const balance = 5000 - 3000;
+    console.log(balance);
+});
+
+
 
 
