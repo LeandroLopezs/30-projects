@@ -26,12 +26,18 @@ function calculateBalance(income, expenses) {
 
 const result = calculateBalance(5000);
 console.log(result);*/
-const balanceEl = document.querySelector('.balance-number');
+//const balanceEl = document.querySelector('.balance-number');
 
-balanceEl.addEventListener('click', function () {
-    const balance = 5000 - 3000;
-    console.log(balance);
-});
+//balanceEl.insertAdjacentHTML('beforeend', '<span>2000</span>');
+
+//balanceEl.addEventListener('click', () => {
+// balanceEl.classList.add('balance-number--special')
+//});
+
+//balanceEl.innerHTML = '<span class="special">Unavailable</span>';
+
+
+
 
 
 
