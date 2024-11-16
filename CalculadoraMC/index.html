@@ -11,26 +11,28 @@
 <body class="body">
     <h1 class="titulo">Calculadora</h1>
     <div class="calculadora">
-        <div id="tela"><span id="tela_info"></span></div>
+        <div id="tela"><input id="tela_info"></span>
+        </div>
         <div id="button-grid">
-            <button class="number" id="seven">7</button>
-            <button class="number" id="eight">8</button>
-            <button class="number" id="nine">9</button>
-            <button class="number" id="vezes">X</button>
+            <button class="number" id="seven" onclick="appendToDisplay('7')">7</button>
 
-            <button class="number" id="four">4</button>
-            <button class="number" id="five">5</button>
-            <button class="number" id="six">6</button>
-            <button class="number" id="minus">-</button>
+            <button class="number" id="eight" onclick="appendToDisplay('8')">8</button>
+            <button class="number" id="nine" onclick="appendToDisplay('9')">9</button>
+            <button class="number" id="vezes" onclick="appendToDisplay('*')">X</button>
 
-            <button class="number" id="one">1</button>
-            <button class="number" id="two">2</button>
-            <button class="number" id="three">3</button>
-            <button class="number" id="plus">+</button>
+            <button class="number" id="four" onclick="appendToDisplay('4')">4</button>
+            <button class="number" id="five" onclick="appendToDisplay('5')">5</button>
+            <button class="number" id="six" onclick="appendToDisplay('6')">6</button>
+            <button class="number" id="minus" onclick="appendToDisplay('-')">-</button>
+
+            <button class="number" id="one" onclick="appendToDisplay('1')">1</button>
+            <button class="number" id="two" onclick="appendToDisplay('2')">2</button>
+            <button class="number" id="three" onclick="appendToDisplay('3')">3</button>
+            <button class="number" id="plus" onclick="appendToDisplay('+')">+</button>
             <br>
-            <button class="number" id="zero">0</button>
+            <button class="number" id="zero" onclick="appendToDisplay('0')">0</button>
             <br>
-            <button class="number" id="equal">=</button>
+            <button class="number" id="equal" onclick="calculate()">=</button>
         </div>
     </div>
     <script src="script/script.js"></script>
