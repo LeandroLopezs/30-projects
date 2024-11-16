@@ -86,6 +86,8 @@ clickZero = (event) => {
     telaEl.insertAdjacentHTML('beforeend', telaZero);
 }
 
+let num1 = document.getElementById("tela_info").innerHTML;
+console.log(num1);
 
 
 sevenEl.addEventListener('click', clickSeven);
