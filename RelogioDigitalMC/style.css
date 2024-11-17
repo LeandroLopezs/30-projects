@@ -1,0 +1,14 @@
+#horas {
+    background-color: black;
+    color: greenyellow;
+    width: 400px;
+    height: 300px;
+    font-family: inherit;
+    font-size: 100px;
+    text-align: center;
+    padding-top: 100px;
+    margin: auto;
+    border-radius: 100px;
+    border: 60px solid gray;
+
+}
