@@ -1,0 +1,21 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+label {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+
+}
+
+input {
+    height: 25px;
+    width: 100px;
+    font-size: 20px;
+}
+
+button {
+    height: 30px;
+    width: 100px;
+}
