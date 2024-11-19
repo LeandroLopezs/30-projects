@@ -1,0 +1,24 @@
+#myDiv {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+
+}
+
+#myInput {
+
+    width: 200px;
+    height: 50px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#myUl {
+    text-align: center;
+
+
+}
+
+.checked {}
