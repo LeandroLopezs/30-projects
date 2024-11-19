@@ -7,21 +7,23 @@ const numeroAleatorio = Math.floor(Math.random() * 100) + 1;
 
 let tentativa = 0;
 
-function adivinharNumero() {
+function advinharNumero() {
 
     tentativa++;
     const palpite = document.getElementById("number").value;
 
     if (palpite === numeroAleatorio) {
+
         const textoNumeros = `Parabéns! Você advinhou o número em  ${tentativa} tentativas.`;
         textoNumero.insertAdjacentHTML('beforeend', textoNumeros);
     } else if (palpite < numeroAleatorio) {
+
         const textoNumeros = `Tente um numero maior`;
         textoNumero.insertAdjacentHTML('beforeend', textoNumeros);
     } else if (palpite > numeroAleatorio) {
+
         const textoNumeros = `Tente um numero menor`;
         textoNumero.insertAdjacentHTML('beforeend', textoNumeros);
-
     }
 
 }
