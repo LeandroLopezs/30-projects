@@ -1,24 +1,50 @@
 #myDiv {
-    display: inline-block;
-    margin-left: auto;
-    margin-right: auto;
-
-
-
+    display: flex-box;
+    text-align: center;
+    background-color: antiquewhite;
+    margin: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #myInput {
 
-    width: 200px;
+    width: 300px;
     height: 50px;
     font-size: 2em;
     text-align: center;
+    border: 3px solid black;
 }
 
 #myUl {
     text-align: center;
+    padding: 30px;
+    font-size: 1.5em;
+}
 
+button {
+    width: 50px;
+    height: 40px;
+    border: 3px solid black;
+    font-size: 15px;
 
+}
+
+button:hover {
+    width: 50px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 15px;
+    background-color: #e6ded4;
+
+}
+
+button:active {
+    width: 50px;
+    height: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 15px;
+    color: aliceblue;
+    background-color: #b4aca3;
 }
 
 .checked {}
