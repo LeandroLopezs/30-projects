@@ -1,11 +1,3 @@
-let userName = ` Leandro`;
+const email = "Bro1@gmail.com";
 
-let result = userName.startsWith(" ");
-
-if (result) {
-    console.log("Your username can't begin with ' '")
-}
-else {
-    console.log(userName)
-}
-
+let username = email.slice (0, email.indexOf("@"));
