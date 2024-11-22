@@ -1,0 +1,39 @@
+h1 {
+    text-align: center;
+}
+
+#score-player {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#score-computer {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#rock {
+    width: 125px;
+    height: 100px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#papers {
+    width: 150px;
+    height: 100px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+#scissors {
+    width: 175px;
+    height: 100px;
+    font-size: 2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
