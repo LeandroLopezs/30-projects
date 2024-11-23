@@ -11,17 +11,19 @@
 <body>
     <h1>Pedra Papel Tesoura</h1>
 
-    <script src="script/script.js"></script>
+
     <div id="score-player">Jogador : </div>
     <br>
     <div id="score-computer">Computador : </div>
     <br><br>
     <div class="choices">
-        <button id="rock">Pedra</button>
-        <button id="papers">Papel</button>
-        <button id="scissors">Tesoura</button>
+        <button id="rock" onclick="aleatorio()">Pedra</button>
+        <button id="papers" onclick="aleatorio()">Papel</button>
+        <button id="scissors" onclick="aleatorio()">Tesoura</button>
     </div>
     <div class="Result"></div>
+
+    <script src="script/script.js"></script>
 </body>
 
 </html>
