@@ -1,9 +1,9 @@
-let fruits = ["apple", "orange", "banana", "coconut"];
+function combineStrings(...strings){
 
-for (let i = fruits.length; i >= 0; i--) {
-
-    console.log(fruits[i]);
-
-
+    return strings.join(" ");
 }
 
+
+const fullName = combineStrings("Mr.", "Spongebob", "Squarepants", "III");
+
+console.log(fullName)
