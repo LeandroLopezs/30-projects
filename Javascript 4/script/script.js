@@ -1,26 +1,15 @@
-class Person {
+const fruits = [{ name: "apple", color: "red", calories: 95 },
+{ name: "pineapple", color: "orange", calories: 206 },
+{ name: "banana", color: "yellow", calories: 68 },
+{ name: "orange", color: "orange", calories: 0.74263 },
+{ name: "lemon", color: "green", calories: 59 }];
 
-    constructor(firstName, lastName, age) {
 
-        this.firstName = firstName;
-        this.lastName = lastName;
-        this.age - age;
-    }
+const maxFruit = fruits.reduce((max, fruit) => fruit.calories > max.calories ? fruit : max);
 
-    set firstName(newFirstName) {
-        if (typeof newFirstName === "string" && newFirstName.length > 0) {
-            this._firstName = newFirstName;
 
-        }
-        else {
-            console.error("First name must be a non-empty string")
-        }
-    }
 
-}
+console.log(maxFruit);
 
-const person = new Person(420, 69, "pizza");
 
-console.log(person.firstName);
-console.log(person.lastName);
-console.log(person.age);
+
