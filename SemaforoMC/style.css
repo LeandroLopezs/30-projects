@@ -1,0 +1,72 @@
+.semaforo {
+    background-color: rgb(69, 69, 69);
+    height: 500px;
+    box-shadow: 5px 5px 5px #000000a7;
+    margin: auto;
+    max-width: 300px;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+#vermelho {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+
+}
+
+#amarelo {
+    background-color: yellow;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+
+
+}
+
+#verde {
+    background-color: green;
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin: 100px;
+
+
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: rgb(205, 205, 205);
+
+}
+
+button:hover {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(38, 38, 38);
+    color: white;
+
+}
+
+button:active {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(119, 119, 119);
+    color: white;
+
+}
