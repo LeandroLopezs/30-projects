@@ -13,8 +13,9 @@ document.getElementById('search').addEventListener('input',
         items.forEach(function (item) {
 
             let text = item.textContent.toLowerCase();
+
             if (text.includes(filter)) {
-                item.computedStyleMap.display = '';
+                item.style.display = '';
             } else {
                 item.style.display = 'none';
             }

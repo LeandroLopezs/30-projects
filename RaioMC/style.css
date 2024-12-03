@@ -1,0 +1,25 @@
+.box {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 100px;
+    background-color: bisque;
+    height: 300px;
+}
+
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input {
+    width: 140px;
+    height: 25px;
+}
+
+button {
+
+    height: 31px;
+}
