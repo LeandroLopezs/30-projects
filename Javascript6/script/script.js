@@ -1,16 +1,40 @@
+const myBox = document.getElementById("myBox");
+const moveAmount = 10;
+let x = 0;
+let y = 0;
 
-const newH1 = document.createElement("h1");
+document.addEventListener("keydown", event => {
+    myBox.textContent = "🙃";
+    myBox.style.backgroundColor = "tomato"
+})
 
-newH1.textContent = "I like pizza!";
-newH1.id = "myH1";
-newH1.style.color = "tomato";
-newH1.style.textAlign = "center";
-
-
-const boxes = document.querySelectorAll(".box");
-document.body.insertBefore(newH1, boxes[0]);
-
+document.addEventListener("keyup", event => {
+    myBox.textContent = "😁"
+    myBox.style.backgroundColor = "lightblue"
+})
 
 
 
 
+document.addEventListener("keydown", event => {
+    if (event.key.startsWith("Arrow")) {
+
+        switch (event.key) {
+            case "ArrowUp":
+                y -= moveAmount;
+                break;
+            case "ArrowDown":
+                y += moveAmount;
+                break;
+            case "ArrowLeft":
+                x -= moveAmount;
+                break;
+            case "ArrowRight":
+                x += moveAmount;
+                break;
+        }
+
+        myBox.style.top = `${y}px`;
+        myBox.style.left = `${x}px`;
+    }
+})
