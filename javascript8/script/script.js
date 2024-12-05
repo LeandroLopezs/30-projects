@@ -58,7 +58,7 @@ function takeOutTrash(callback) {
                 resolve("You take out the trash! 🗑️");
             }
             else {
-                reject("You DIDN'T take the trash")
+                reject("You DIDN'T take the trash");
             }
 
 
@@ -71,3 +71,5 @@ walkDog().then(value => { console.log(value); return cleanKitchen() })
     .then(value => { console.log(value); return takeOutTrash() })
     .then(value => { console.log(value); console.log("You finished all the chores") });
     .catch (error => console.error(error) );
+
+    
