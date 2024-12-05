@@ -1,0 +1,45 @@
+.box {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px black;
+    padding-top: 100px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    background-image: linear-gradient(rgb(161, 0, 0), rgb(255, 25, 0), rgb(161, 0, 0));
+    border: 1px solid black;
+    color: white;
+    height: 300px;
+    max-width: 600px;
+}
+
+label {
+    font-size: 25px;
+}
+
+input {
+    width: 125px;
+    height: 70px;
+    font-size: 25px;
+}
+
+button {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    height: 70px;
+
+}
+
+button:hover {
+    color: white;
+    background-color: rgb(181, 0, 0);
+    height: 70px;
+
+}
+
+button:active {
+    color: white;
+    background-color: rgb(245, 62, 62);
+    height: 70px;
+}

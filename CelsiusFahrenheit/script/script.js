@@ -5,4 +5,4 @@ function calcular() {
     farenheit.textContent = "Farenheit: "
     result = 9 / 5 * celsius + 32;
     farenheit.insertAdjacentHTML('beforeend', result);
-} s
+} 
