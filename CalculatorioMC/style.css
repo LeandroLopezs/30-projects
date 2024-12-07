@@ -1,0 +1,41 @@
+h1 {
+
+    font-size: 50px;
+}
+
+body {
+    background-image: linear-gradient(blue, rgb(120, 239, 255));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#box {
+    width: 600px;
+    height: 350px;
+    padding-top: 70px;
+    text-align: center;
+    background-color: azure;
+
+}
+
+#numero1 {
+    width: 70px;
+    height: 30px;
+}
+
+#numero2 {
+    width: 70px;
+    height: 30px;
+}
+
+#soma {
+    height: 30px;
+    width: 50px;
+}
+
+button {
+    font-size: 20px;
+    width: 100px;
+    height: 50px;
+}
