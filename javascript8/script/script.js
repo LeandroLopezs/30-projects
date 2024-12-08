@@ -1,3 +1,3 @@
-fetch("names.json")
-    .then(response => response.json())
-    .then(values => values.forEach(value => console.log(value)))
+string = "fodanator fodanato fodanator"
+const maiusculo = string.charAt(0).toUpperCase() + string.slice(1);
+console.log(maiusculo);
