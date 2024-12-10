@@ -12,10 +12,8 @@ function initializeSlider() {
         intervalId = setInterval(nextSlide, 5000);
     }
 
-
-
-
 }
+
 function showSlide(index) {
 
     if (index >= slides.length) {
