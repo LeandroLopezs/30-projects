@@ -33,7 +33,7 @@ function updateTestimonial() {
     setTimeout(() => {
         updateTestimonial();
 
-    }, 6000);
+    }, 10000);
 }
 
 
