@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+}
+
+body {
+    background-color: bisque;
+}
+
+header {
+    background-color: rgb(178, 34, 9);
+    color: aliceblue;
+    padding: 10px;
+    text-align: center;
+    height: 45px;
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin-right: auto;
+
+    width: 650px;
+    height: 50px;
+    margin-top: 30px;
+    background-color: rgb(215, 93, 0);
+    color: aliceblue;
+    border: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+button:hover {
+    background-color: rgb(159, 69, 0);
+}
+
+button:active {
+    background-color: rgb(255, 137, 47);
+}
+
+#box {
+    background-color: aliceblue;
+    width: 655px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px;
+}
+
+#box img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 500px;
+}
