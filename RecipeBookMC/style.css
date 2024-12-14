@@ -18,7 +18,7 @@ h2 {
     text-align: center;
 }
 
-button {
+a {
     display: block;
     margin-right: auto;
 
@@ -29,6 +29,8 @@ button {
     color: aliceblue;
     border: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+
 
 }
 
@@ -36,13 +38,14 @@ a {
     color: aliceblue;
     text-decoration: none;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 30px;
 }
 
-button:hover {
+a:hover {
     background-color: rgb(159, 69, 0);
 }
 
-button:active {
+a:active {
     background-color: rgb(255, 137, 47);
 }
 
